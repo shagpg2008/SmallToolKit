@@ -1,0 +1,621 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "tool.ico"
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 248, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About SmallToolKit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,9,20,20
+    LTEXT           "SmallToolKit 1.1",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Shagpg Copyright (C) 2013",IDC_STATIC,40,22,119,8
+    DEFPUSHBUTTON   "OK",IDOK,191,7,50,14,WS_GROUP
+    LTEXT           "1. Data.  the format is as C language printf. ",
+                    IDC_STATIC,7,36,233,11
+    LTEXT           "3. Radix. number radix exchange, for exampe 10 radix number to 16 radix",
+                    IDC_STATIC,7,112,232,18
+    LTEXT           "2. Code. calculate code line count. the comment format is:  ""start tag, end tag"", if no end tag, then it's line comments. if there are more than two types, use '|' to separate. for example: ""/*,*/ | //"".  Now  the code can",
+                    IDC_STATIC,7,49,232,35
+    LTEXT           "count C, C++, OBJ-C, Javascrip, Php,Java, Python, Perl, Lua, Ruby, HTML, CSS, C#, BAT, VB, VBS, ASP, Asm language, you can also define it yourself in comment.",
+                    IDC_STATIC,7,82,232,27
+END
+
+IDD_SMALLTOOLKIT_DIALOG DIALOGEX 0, 0, 254, 183
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_NOPARENTNOTIFY | WS_EX_APPWINDOW
+CAPTION "SmallToolKit"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_SMALLTOOLKIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SmallToolKit.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Shagpg Liao\0"
+            VALUE "FileDescription", "Some functions the developer can use daily.\0"
+            VALUE "FileVersion", "1, 1, 0, 0\0"
+            VALUE "InternalName", "SmallToolKit\0"
+            VALUE "LegalCopyright", "Shagpg Copyright (C) All Reserved 2013\0"
+            VALUE "LegalTrademarks", "Shagpg\0"
+            VALUE "OriginalFilename", "SmallToolKit\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SmallToolKit\0"
+            VALUE "ProductVersion", "1, 1, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "About SmallToolKit(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_PRIME DIALOG DISCARDABLE  0, 0, 221, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Prime number table"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Check",IDOK,187,8,27,12
+    PUSHBUTTON      "Cancel",IDCANCEL,164,118,50,14,NOT WS_VISIBLE
+    LTEXT           "Number:",IDC_STATIC,9,10,27,9
+    EDITTEXT        IDC_EDIT_MAX_NUM,36,8,65,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STATIC_TABLE,7,24,207,108,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL
+    COMBOBOX        IDC_COMBO_OPERATE,104,8,80,81,CBS_DROPDOWN | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_PRIME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_PRIME DLGINIT
+BEGIN
+    IDC_COMBO_OPERATE, 0x403, 15, 0
+0x7349, 0x6120, 0x7020, 0x6972, 0x656d, 0x2820, 0x293f, "\000" 
+    IDC_COMBO_OPERATE, 0x403, 17, 0
+0x6942, 0x6767, 0x7365, 0x2074, 0x7250, 0x6d69, 0x2865, 0x293c, "\000" 
+    IDC_COMBO_OPERATE, 0x403, 15, 0
+0x654c, 0x7361, 0x2074, 0x7250, 0x6d69, 0x2865, 0x293e, "\000" 
+    IDC_COMBO_OPERATE, 0x403, 15, 0
+0x6c41, 0x206c, 0x7250, 0x6d69, 0x7365, 0x2820, 0x293c, "\000" 
+    0
+END
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_DATA DIALOG DISCARDABLE  0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_INPUT,9,30,217,35,ES_MULTILINE | ES_AUTOVSCROLL
+    DEFPUSHBUTTON   "&Convert",IDOK,63,134,50,14
+    CONTROL         "Format:",IDC_CHECK_FROM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,14,41,11
+    EDITTEXT        IDC_EDIT_FROM,52,14,60,12,ES_AUTOHSCROLL
+    CONTROL         "Format:",IDC_CHECK_TO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,11,82,38,9
+    EDITTEXT        IDC_EDIT_TO,52,80,60,12,ES_AUTOHSCROLL
+    GROUPBOX        "Output",IDC_STATIC,7,72,222,61
+    EDITTEXT        IDC_EDIT_OUTPUT,9,96,217,34,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN
+    LTEXT           "Only one param % allowed",IDC_STATIC,116,15,85,9
+    GROUPBOX        "From",IDC_STATIC,7,4,222,65
+    PUSHBUTTON      "&From File",IDC_BUTTON_FILE,122,134,50,14
+    PUSHBUTTON      "Button1",IDCANCEL,213,148,16,7,NOT WS_VISIBLE
+    LTEXT           "Only one param % allowed",IDC_STATIC,116,82,85,9
+END
+
+IDD_PROPPAGE_Num DIALOG DISCARDABLE  0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Num"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NUM1,53,13,117,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NUM2,53,32,117,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "C&alc",IDOK,178,11,50,14
+    LTEXT           "Number 1:",IDC_STATIC,14,16,37,9
+    LTEXT           "Number 2:",IDC_STATIC,14,34,37,9
+    LTEXT           "Number 3:",IDC_STATIC,14,51,37,11
+    EDITTEXT        IDC_EDIT_NUM3,53,50,117,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "",IDC_STATIC,7,6,167,62
+    CONTROL         "&GCD(Greatest Common Devide)",IDC_RADIO_GCD,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,12,90,113,10
+    CONTROL         "L&CM(Least Common Multiple)",IDC_RADIO_LCM,"Button",
+                    BS_AUTORADIOBUTTON,12,104,106,10
+    CONTROL         "L&IM(Least Integeral Multiple)",IDC_RADIO_LIM,"Button",
+                    BS_AUTORADIOBUTTON,12,119,109,10
+    GROUPBOX        "Operate Type",IDC_STATIC,7,73,221,74
+    CONTROL         "&MOD Operator",IDC_RADIO_MOD,"Button",
+                    BS_AUTORADIOBUTTON,12,133,64,10
+    PUSHBUTTON      "Button1",IDCANCEL,69,20,39,24,NOT WS_VISIBLE
+    PUSHBUTTON      "Prime Table",IDGETPRIMERS,178,30,50,14
+    PUSHBUTTON      "Ascci Table",ID_ASCCI,178,49,50,14
+    CONTROL         "^ (XOR)",IDC_RADIO_XOR,"Button",BS_AUTORADIOBUTTON,138,
+                    90,41,10
+    CONTROL         "| (OR)",IDC_RADIO_OR,"Button",BS_AUTORADIOBUTTON,138,
+                    104,42,10
+    CONTROL         "&& (AND)",IDC_RADIO_AND,"Button",BS_AUTORADIOBUTTON,183,
+                    90,41,10
+    CONTROL         "~ (REV)",IDC_RADIO_REV,"Button",BS_AUTORADIOBUTTON,183,
+                    104,41,10
+    CONTROL         "MathExp:",IDC_RADIO_MATH,"Button",BS_AUTORADIOBUTTON,
+                    138,119,42,10
+    EDITTEXT        IDC_EDIT_MATH,183,118,43,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_EXPR,138,132,88,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,134,113,94,33
+END
+
+IDD_PROPPAGE_RADIX DIALOG DISCARDABLE  0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Radix"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_INPUT_NUM,10,31,216,34,ES_MULTILINE | 
+                    ES_AUTOVSCROLL
+    CONTROL         "Radix",IDC_CHECK_RADIX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,124,18,36,10
+    EDITTEXT        IDC_EDIT_RADIX,160,17,65,12,ES_AUTOHSCROLL
+    LTEXT           "Input:",IDC_STATIC,10,19,24,9
+    GROUPBOX        "From",IDC_STATIC,7,7,221,62
+    LTEXT           "Output:",IDC_STATIC,11,81,33,8
+    EDITTEXT        IDC_EDIT_OUTPUT_NUM,10,92,216,34,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY
+    GROUPBOX        "To",IDC_STATIC,7,71,221,59
+    CONTROL         "Radix",IDC_CHECK_OUTPUT_RADIX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,124,80,33,10
+    EDITTEXT        IDC_EDIT_OUTPUT_RADIX,160,79,65,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Transfer",IDOK,94,131,47,16
+    PUSHBUTTON      "B",IDCANCEL,152,135,40,12,NOT WS_VISIBLE
+END
+
+IDD_PROPPAGE_NET DIALOG DISCARDABLE  0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Net"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "&Client",IDC_RADIO_CLIENT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,11,36,10
+    CONTROL         "&Server",IDC_RADIO_SERVER,"Button",BS_AUTORADIOBUTTON,
+                    44,11,36,10
+    GROUPBOX        "",IDC_STATIC,7,5,74,18
+    LTEXT           "Host:",IDC_STATIC,84,12,20,9
+    EDITTEXT        IDC_EDIT_HOST,104,10,63,12,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_STATIC,170,12,19,8
+    EDITTEXT        IDC_EDIT_PORT,191,10,36,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,82,5,148,19
+    GROUPBOX        "",IDC_STATIC,7,24,224,19
+    CONTROL         "&UDP",IDC_RADIO_UDP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,29,28,10
+    CONTROL         "&TCP",IDC_RADIO_TCP,"Button",BS_AUTORADIOBUTTON,44,29,
+                    28,10
+    CONTROL         "&RAW",IDC_RADIO_RAW,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,79,29,28,10
+    CONTROL         "&HDRINCL",IDC_CHECK_HDRINCL,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,108,29,44,10
+    CONTROL         "St&ring",IDC_CHECK_STRING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,156,29,40,10
+    GROUPBOX        "Data",IDC_STATIC,7,44,224,89
+    LTEXT           "Group1:",IDC_STATIC,13,56,28,10
+    LTEXT           "Group2:",IDC_STATIC,13,69,28,10
+    LTEXT           "Group3:",IDC_STATIC,13,83,28,10
+    LTEXT           "Group4:",IDC_STATIC,13,97,28,10
+    LTEXT           "Group5:",IDC_STATIC,13,110,28,10
+    EDITTEXT        IDC_EDIT_GROUP1,41,55,187,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GROUP2,41,69,187,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GROUP3,41,81,187,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GROUP5,41,108,187,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GROUP4,41,94,187,12,ES_AUTOHSCROLL
+    LTEXT           "Group6:",IDC_STATIC,13,122,28,10
+    EDITTEXT        IDC_EDIT_GROUP6,41,121,187,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "ST&ART",IDOK,92,133,50,14
+    PUSHBUTTON      "Button2",IDCANCEL,181,133,50,14,NOT WS_VISIBLE
+END
+
+IDD_PROPPAGE_FSPLIT DIALOGEX 0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "File"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,16,83,212,38
+    PUSHBUTTON      "&Open",IDC_BUTTON_GETFILES,19,26,45,13
+    CONTROL         "S&uffix:",IDC_CHECK_SUFFIX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,91,44,10
+    EDITTEXT        IDC_EDIT_SUFFIX,68,90,40,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "By S&ize",IDC_RADIO_SIZE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,113,92,44,10
+    CONTROL         "&Key val",IDC_RADIO_KERYVALUE,"Button",
+                    BS_AUTORADIOBUTTON,21,105,44,10
+    EDITTEXT        IDC_EDIT_SIZE,158,90,66,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_KEY_VALUE,67,105,156,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    DEFPUSHBUTTON   "&Split",IDOK,92,136,50,14
+    PUSHBUTTON      "Button3",IDCANCEL,184,69,11,21,NOT WS_VISIBLE
+    CONTROL         "&Split file to many files",IDC_RADIO_SPLIT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,9,77,112,9
+    CONTROL         "&Merge files to one file (like copy/b)",
+                    IDC_RADIO_COMBINE,"Button",BS_AUTORADIOBUTTON,9,122,189,
+                    8
+    GROUPBOX        "",IDC_STATIC,7,4,223,130
+    PUSHBUTTON      "S&ave",IDC_BUTTON_DSTFILENAME,20,10,45,13
+    EDITTEXT        IDC_EDIT_DST_FILE,67,10,160,13,ES_AUTOHSCROLL
+    CONTROL         "List1",IDC_LIST_FILE_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_EDITLABELS | LVS_NOCOLUMNHEADER | WS_BORDER | 
+                    WS_TABSTOP,67,26,160,50
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,36,42,28,9
+    PUSHBUTTON      "Up",IDC_BUTTON_UP,36,52,28,9
+    PUSHBUTTON      "Down",IDC_BUTTON_DOWN,36,62,28,9
+END
+
+IDD_PROPPAGE_CODE DIALOGEX 0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Code"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Calc",IDOK,78,11,32,11
+    PUSHBUTTON      "&Open",IDC_BUTTON_OPEN,10,11,32,11
+    PUSHBUTTON      "&Delete",IDC_BUTTON_DELETE,44,11,32,11
+    EDITTEXT        IDC_EDIT_SELF,159,11,68,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Comment",IDC_CHECK_SELF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,12,44,10
+    CONTROL         "List2",IDC_LIST_FILE,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_EDITLABELS | WS_BORDER | 
+                    WS_TABSTOP,7,27,222,120
+    GROUPBOX        "",IDC_STATIC,7,5,222,20
+    PUSHBUTTON      "",IDCANCEL,141,9,50,14,NOT WS_VISIBLE
+END
+
+IDD_PROPPAGE_CHKSUM DIALOGEX 0, 0, 236, 155
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+EXSTYLE WS_EX_ACCEPTFILES
+CAPTION "Hash"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,4,224,34
+    EDITTEXT        IDC_EDIT_FILEPATH,39,10,189,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    DEFPUSHBUTTON   "&Check",IDOK,9,23,29,11
+    PUSHBUTTON      "&Browse",IDC_BUTTON_BROWSE,9,10,29,11
+    LTEXT           "Bits:",IDC_STATIC,9,55,22,8
+    EDITTEXT        IDC_EDIT_CRC_WIDTH,32,53,25,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    LTEXT           "Poly:",IDC_STATIC,60,54,19,8
+    EDITTEXT        IDC_EDIT_POLY,82,53,38,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "In:",IDC_STATIC,125,55,13,8
+    EDITTEXT        IDC_EDIT_INIT,136,53,38,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Out:",IDC_STATIC,177,55,14,8
+    EDITTEXT        IDC_EDIT_OUTXOR,191,53,37,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    CONTROL         "In Reflect",IDC_CHECK_IN,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,125,42,52,9
+    CONTROL         "OutReflect",IDC_CHECK_OUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,178,42,48,8
+    EDITTEXT        IDC_EDIT_CRC,82,41,38,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "List1",IDC_LIST_CHKSUM,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_EDITLABELS | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,7,68,224,81
+    PUSHBUTTON      "CANCEL",IDCANCEL,113,107,50,14,NOT WS_VISIBLE
+    CONTROL         "Customise",IDC_CHECK_CUST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,42,49,8
+    EDITTEXT        IDC_EDIT_DATA,39,23,189,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,35,224,33
+    LTEXT           "Code:",IDC_STATIC,60,43,19,8
+END
+
+IDD_WAIT_DIALOG DIALOGEX 0, 0, 189, 30
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "Please  wait....",IDC_STATIC_TEXT,5,7,175,10,0,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,2,17,181,10,WS_EX_TRANSPARENT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_DATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_PROPPAGE_Num, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_RADIX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_NET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_FSPLIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_CODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 229
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_PROPPAGE_CHKSUM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_WAIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SmallToolKit.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
